@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css">
+	<style>
+        html,body{height:100%}
+
+		.aui-bar-nav .aui-pull-left .color_blue {
+            color:#208efd;
+        }
+
+        .background_white {
+            background-color: #ffffff;
+        }
+
+        .color_blue {
+            color:#208efd;
+        }
+
+        .message_tab {
+            height: 1.9rem;
+            width: 100%;
+            border-top: 1px solid #f2f2f2;
+            border-bottom: 1px solid #f2f2f2;
+            background-color: #ffffff;
+        }
+
+        .message_tab01 {
+            width: 50%;
+            height: 1.9rem;
+            float: left;
+            text-align: center;
+            line-height: 1.9rem;
+            position:relative;
+        }
+        
+        .spacer_tab {
+            width: 2.2rem;
+            height: 0.1rem;
+            background-color:#ff9966;
+            margin:0 auto;
+        }
+
+        .message_tab02 {
+            width: 49%;
+            height: 1.9rem;
+            float: left;
+            text-align: center;
+            line-height: 1.9rem;
+            position: relative;
+        }
+
+        .spacer {
+            margin-top: 0.15rem;
+            float: left;
+            width: 0.05rem;
+            height: 1.5rem;
+            background-color: #f2f2f2;
+        }
+
+        .color_orange {
+            color: #ff9966
+        }
+
+        .message_main {
+            width: 100%;
+            height: 87.5%;
+            background-color: #fcfcfc;
+            overflow: hidden;
+        }
+
+        .message_main p {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:4.5rem;
+            width: auto;
+            text-align: center;
+            color: #707070;
+        }
+
+        
+	</style>
+</head>
+<body>
+    <header class="aui-bar aui-bar-nav background_white color_blue aui-font-size-16">
+        <a class="aui-pull-left aui-btn color_blue">
+            <span class="aui-iconfont aui-icon-left color_blue"></span>
+        </a>
+        <div class="aui-title">我的消息</div>
+    </header>
+
+    <div class="message_tab">
+        <div class="message_tab01 aui-font-size-14 color_orange">
+            <div class="color_orange">私信</div>
+            <div class="spacer_tab"></div>
+        </div>
+        <div class="spacer"></div>
+        <div class="message_tab02 aui-font-size-14">
+            <div>通知</div>
+        </div>
+    </div>
+
+    <div class="message_main">
+        <p>暂时没有收到私信</p>
+    </div>
+
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+		
+    };
+</script>
+</html>

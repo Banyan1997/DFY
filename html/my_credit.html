@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css">
+	<style>
+		.aui-title {
+            font-size: 16px;
+        }
+
+        .title_right {
+            float: right;
+            padding-right: 10px;
+            font-size: 14px;
+        }
+
+        .total_integral {
+            width: 100%;
+            height: 58px;
+            border: 1px solid #f2f2f2;
+            background: #fff;
+            line-height: 58px;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        .total_number {
+            color: #ff9966;
+        }
+
+        .integral_detail {
+            height: 58px;
+            border-bottom: 1px solid #f2f2f2;
+            background: #fff;
+            line-height: 59px;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        .integral_pic {
+            width: 25px;
+            height: 55px;
+            float: right;
+            padding: 20px 5px;
+        }
+	</style>
+</head>
+<body>
+   <header class="aui-bar aui-bar-nav aui-bar-light">
+        <a class="aui-pull-left aui-btn">
+            <span class="aui-iconfont aui-icon-left"></span>
+        </a>
+        <div class="aui-title">信用积分</div>
+        <div class="title_right">权限</div>
+    </header>
+    <div class="total_integral">总积分：<span class="total_number">100.00</span></div>
+    <div class="integral_detail">
+        <div style="float: left;">2017.08.01的借款按时还款。</div>
+        <div style="float: right;padding-right: 10px;">10积分</div>
+        <img src="../image/my_plus.png" class="integral_pic">
+    </div>
+    <div class="integral_detail">
+        <div style="float: left;">2017.08.01的借款未按时还款。</div>
+        <div style="float: right;padding-right: 10px;">20积分</div>
+        <img src="../image/window_minus.png" class="integral_pic">
+    </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+		
+    };
+</script>
+</html>

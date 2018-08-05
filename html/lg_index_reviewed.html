@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css">
+	<style>
+        body {
+            background: #ffffff;
+        }
+
+		.aui-bar-nav .aui-pull-left .color_blue {
+            color:#208efd;
+        }
+
+        .background_white {
+            background-color: #ffffff;
+        }
+
+        .color_blue {
+            color:#208efd;
+        }
+        
+        .reviewed_title {
+            border-bottom: 1px solid #f2f2f2;
+        }
+        
+        .spacer {
+            width: 18%;
+            height: 0.05rem;
+            background-color: #f2f2f2;
+            float: left;
+            margin-top: 0.75rem;
+        }
+        
+        .reviewed_iron {
+            width: 100%;
+            height: 3.5rem;
+            margin-top: 0.5rem;
+            overflow: hidden;
+        }
+
+        .iron_main {
+            margin:0 auto;
+            height: auto;
+            width: 62%;
+            overflow: hidden;
+        }
+
+        .iron {
+            width: 21%;
+            float: left;
+        }
+
+        .iron img {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: 0 auto;
+        }
+
+        span {
+            font-size: 0.6rem;
+            color: #707070;
+            margin-top: 0.5rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .iron_blue {
+            color: #208efd;
+        }
+
+        .reviewed_main {
+            width: 100%;
+            text-align: center;
+            padding-top: 1rem;
+        }
+
+        .reviewed_main img {
+            width: 7.5rem;
+            height: 7.5rem;
+            margin: 0 auto;
+        }
+
+        .p_reviewed {
+            margin-top: 1.75rem;
+            font-size: 0.9rem;
+            color: #ff9966;
+        }
+
+        .p_waiting {
+            margin-top: 0.25rem;
+            margin-bottom: 2rem;
+            font-size: 0.7rem;
+            color: #707070;
+        }
+
+        .reviewed_btn {
+            width: 7rem;
+            height: 2rem;
+            color: #ffffff;
+            border-radius: 0.25rem;
+            background: #208efd;
+            line-height: 2rem;
+            font-size: 0.7rem;
+            text-align: center;
+            margin:0 auto;
+        }
+	</style>
+</head>
+<body>
+
+    <header class="aui-bar aui-bar-nav background_white color_blue aui-font-size-16 reviewed_title">
+        <a class="aui-pull-left aui-btn color_blue">
+            <span class="aui-iconfont aui-icon-left color_blue"></span>
+        </a>
+        <div class="aui-title">在线审核</div>
+    </header>
+    
+    <div class="reviewed_iron">
+        <div class="iron_main">
+            <div class="iron">
+                <img src="../image/index_num1grey.png">
+                <span>提交申请</span>
+            </div>
+            <div class="spacer"></div>
+            <div class="iron">
+                <img src="../image/index_num2blue.png">
+                <span class="iron_blue">在线审核</span>
+            </div>
+            <div class="spacer"></div>
+            <div class="iron">
+                <img src="../image/index_num3grey.png">
+                <span>签约放款</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviewed_main">
+        <img src="../image/window_check.png">
+        <p class="p_reviewed">审批中</p>
+        <p class="p_waiting">请耐心等待...</p>
+        <div class="reviewed_btn">完成</div>
+    </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+		
+    };
+</script>
+</html>

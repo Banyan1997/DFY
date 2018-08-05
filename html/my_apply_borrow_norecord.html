@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css">
+	<style>
+		.aui-title {
+            font-size: 16px;
+        }
+
+        .main {
+            width: 100%;
+            background: #fff;
+        }
+
+        .repayment_pic {
+            padding-top: 25%;
+            position: absolute;
+            left: 50%;
+            margin-left: -95px;
+        }
+
+        .repayment_word {
+            height: 20px;
+            text-align: center;
+            padding-top: 80%;
+            color: #707070;
+            font-size: 14px;
+        }
+
+        .repayment_button {
+            width: 150px;
+            height: 40px;
+            background: #208efd;
+            color: #fff;
+            top: 40px;
+            left: 50%;
+            margin-left: -75px;
+        }
+
+        .main_top_first {
+            width: 50%;
+            height: 44px;
+            float: left;
+            color: #ff9966;
+            line-height: 42px;
+            border: 1px solid #f2f2f2;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .main_top_third {
+            width: 50%;
+            height: 44px;
+            float: left;
+            color: #282828;
+            line-height: 42px;
+            border: 1px solid #f2f2f2;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .main_top_secend {
+            width: 50px;
+            height: 2px;
+            background: #ff9966;
+            margin: 0px auto;
+        }
+
+	</style>
+</head>
+<body>
+   <header class="aui-bar aui-bar-nav aui-bar-light">
+        <a class="aui-pull-left aui-btn">
+            <span class="aui-iconfont aui-icon-left"></span>
+        </a>
+        <div class="aui-title">交易记录</div>
+    </header>
+    <div class="main">
+        <div class="main_top_first">我的借款
+            <div class="main_top_secend"></div>
+        </div>
+        <div class="main_top_third">我的还款</div>
+
+        <div class="repayment_pic">
+            <img src="../image/my_huankuan.png">
+        </div>
+        <div class="repayment_word">您还没有借款记录</div>
+        <button class="repayment_button">立即贷款</button>
+    </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+		
+    };
+</script>
+</html>

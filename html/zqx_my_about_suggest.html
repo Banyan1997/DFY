@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/api.css" />
+    <link rel="stylesheet" type="text/css" href="../css/aui.css">
+	<style>
+        .wrap {
+            background: #fff;
+        }
+
+        .win_header .aui-title{
+            font-size: 0.8rem;
+        }
+        
+        .color_blue {
+            color: #208efd!important;
+        }
+        .size_14 {
+            font-size: 0.7rem!important;
+        }
+
+        .aui-list.aui-list-in .aui-list-item {
+            background-position: 0rem bottom;
+        }
+
+        .tip_box {
+            height: 2.9rem;
+            width: 100%;
+            border-bottom: 1px solid #dddddd;
+            line-height: 2.9rem;
+            padding-left: 0.74rem;
+            background: #fff;
+            color: #282828;
+            font-size: 0.7rem;
+        }
+
+        .textarea {
+            height: 7.5rem;
+            width: 200px;
+            line-height: 1.5rem;
+            font-size: 0.7rem;
+            color: #282828;
+            border-bottom: 0.02rem solid #dddddd;
+            padding: 0px 0.75rem;
+        }
+	</style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="aui-bar aui-bar-nav aui-bar-light win_header"">
+            <a class="aui-pull-left aui-btn">
+                <span class="aui-iconfont aui-icon-left color_blue"></span>
+            </a>
+            <div class="aui-title color_blue">意见反馈</div>
+        </header>
+        <div class="tip_box">问题和意见</div>
+        <div>
+            <input class="textarea" type="textarea" name="suggestion" wrap="virtual"
+             placeholder="请输入您的问题或意见">
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="../script/api.js"></script>
+<script type="text/javascript">
+    apiready = function(){
+		
+    };
+</script>
+</html>
